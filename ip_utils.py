@@ -12,7 +12,7 @@ o ip é verdadeiro
 
 def ip_valido(IP):
 
-    #divide a string contento o ip em octetos
+    #divide a string contendo o ip em octetos
     octetos =  IP.split(".")
     
     #cria uma lista para adicionar cada um dos octetos      
