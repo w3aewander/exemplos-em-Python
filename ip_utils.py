@@ -15,12 +15,12 @@ def ip_valido(IP):
     #divide a string contendo o ip em octetos
     octetos =  IP.split(".")
     
-    #cria uma lista para adicionar cada um dos octetos      
-    ip = []                  
-
     #Verifica se o número de octetos é diferente de 4
     if  len(octetos) !=  4:
         return False
+
+    #cria uma lista para adicionar cada um dos octetos      
+    ip = []                  
 
     #Itera na lista de octetos e adiciona cada octeto encontrado
     #na lista "ip"    
